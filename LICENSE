@@ -1,20 +1,4 @@
-# cartogitphy
-
-#### Cartography on Git.
-
-Cartogitphy (rhymes with cartography, duh!) creates a visualization of files within
-a git repo, joining the files by the number of times each file is committed together
-with other files. The weight of each relationship is 1/log(x) depending on the number
-of files committed, so commits modifying all files, relatively, don't change the weight
-of any relationship.
-
-## Contributing
-
-You know the deal, fork → pull request → etc, or open an issue.
-
-## LICENSE
-
-### The MIT License (MIT)
+The MIT License (MIT)
 
 Copyright (c) 2013 Pablo Fernandez
 
