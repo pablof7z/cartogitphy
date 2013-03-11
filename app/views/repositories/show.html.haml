@@ -1,0 +1,5 @@
+%h1.name= @repository.name
+
+- if @repository.processed?
+- else
+  Currently queued for processing.

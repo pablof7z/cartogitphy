@@ -23,6 +23,7 @@ group :worker do
   gem 'resque'
 end
 
+gem 'resque-loner', require: 'resque-loner'
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -51,4 +52,6 @@ group :test do
   gem 'resque_spec'
 end
 
-gem 'haml'gem 'haml'
+gem 'redis'
+gem 'haml'
+gem 'octokit'

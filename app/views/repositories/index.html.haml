@@ -1,0 +1,5 @@
+= form_for @repository, html: {class: 'form-inline'} do |f|
+  %legend Create your own map
+  %label https://github.com/
+  = f.text_field :name, placeholder: 'your/repo'
+  = f.submit 'Submit', class: 'btn btn-primary btn-large'
